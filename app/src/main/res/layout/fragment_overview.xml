@@ -10,20 +10,20 @@
         >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <RelativeLayout
                     android:id="@+id/container"
                     android:layout_width="0dp"
-                    android:layout_weight="0.7"
-                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:layout_alignParentEnd="true">
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         <TextView
@@ -35,7 +35,21 @@
                             android:textStyle="bold"
                             android:paddingHorizontal="30px"
                             android:paddingTop="30px"/>
-                        <include layout="@layout/deadline_card"/>
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingVertical="10px"
+                            android:scrollbars="none"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <include layout="@layout/deadline_card"/>
+                                <include layout="@layout/deadline_card"/>
+                                <include layout="@layout/deadline_card"/>
+                            </LinearLayout>
+                        </ScrollView>
                     </LinearLayout>
                 </RelativeLayout>
                 <RelativeLayout
@@ -79,7 +93,7 @@
                                 android:text="@string/percent"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textSize="80px"
+                                android:textSize="40px"
                                 android:textStyle="bold" />
                         </RelativeLayout>
                         <TextView
@@ -112,12 +126,44 @@
                                 android:text="80%"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textSize="80px"
+                                android:textSize="40px"
                                 android:textStyle="bold" />
                         </RelativeLayout>
                     </LinearLayout>
                 </RelativeLayout>
             </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/containerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:padding="20px">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:scrollbars="none">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="UPCOMMING ASSIGNMENTS"
+                            android:textColor="@color/black"
+                            android:textSize="30px"
+                            android:textStyle="bold"
+                            android:paddingHorizontal="30px"
+                            android:paddingTop="30px"/>
+                        <include layout="@layout/deadline_card"/>
+                        <include layout="@layout/deadline_card"/>
+                        <include layout="@layout/deadline_card"/>
+                        <include layout="@layout/deadline_card"/>
+                        <include layout="@layout/deadline_card"/>
+                        <include layout="@layout/deadline_card"/>
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
         </LinearLayout>
 
     </RelativeLayout>
