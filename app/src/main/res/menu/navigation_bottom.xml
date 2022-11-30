@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/overview"
+        android:icon="@drawable/online_learning"
+        android:title="OVERVIEW"/>
+    <item android:id="@+id/deadlines"
+        android:icon="@drawable/deadline"
+        android:title="DEADLINES"/>
+    <item android:id="@+id/progress"
+        android:icon="@drawable/business_plan"
+        android:title="PROGRESS"/>
+    <item android:id="@+id/schedule"
+        android:icon="@drawable/iteration"
+        android:title="SCHEDULE"/>
+    <item android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="SETTINGS" />
+</menu>

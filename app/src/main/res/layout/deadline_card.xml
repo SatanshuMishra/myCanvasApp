@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:elevation="16dp"
+        android:background="@drawable/myrect">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/course_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COSC 341 101 2022W1 HUMAN COMPUTER INTERACTION"
+                android:textFontWeight="1000"
+                android:textSize="25px"
+                android:textColor="@color/black"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/assignment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Step 4"
+                android:textFontWeight="1000"
+                android:textSize="30px"
+                android:textColor="@color/black"
+                android:layout_below="@id/course_name"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textFontWeight="1000"
+                android:textSize="30px"
+                android:text="Due Dec 2 at 11:59 PM"
+                android:textColor="@color/black"
+                android:layout_below="@id/assignment_title"
+                android:padding="1dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    
+</RelativeLayout>
