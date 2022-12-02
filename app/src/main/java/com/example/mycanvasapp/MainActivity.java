@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -19,6 +20,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.sql.Array;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CanvasAssignmentsAPI();
-        print();
     }
 
     public void changeView(View view){
@@ -46,23 +48,25 @@ public class MainActivity extends AppCompatActivity {
 
     void CanvasAssignmentsAPI(){
         this.queue = Volley.newRequestQueue(this);
-        this.url = "https://api.publicapis.org/entries";
+        this.url = "https://ubc.instructure.com:443/api/v1/courses?enrollment_type=student&enrollment_state=active&state[]=available";
         this.JSONObjectRequest = new JsonObjectRequest(Request.Method.GET,this.url,null,new Response.Listener<JSONObject>(){
             @Override
             public void onResponse(JSONObject response) {
                 System.out.println("INNER" + response.toString());
-                text = response.toString();
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(getApplicationContext(), "Errr", Toast.LENGTH_SHORT);
             }
-        });
+        }) {     
+        @Override
+        public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("Authorization", "Bearer 11224~3W6jNTemMtADzpLrzxhN8PpNLS8qrBChqZ27zNEX7SKFKxfjLTzUYVhvlAOYcKc1");
+                return params;  
+        }
+    };
         queue.add(this.JSONObjectRequest);
-    }
-
-    void print(){
-        System.out.println("CONTENT " + text);
     }
 }
