@@ -2,169 +2,224 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".OverviewFragment">
-    <RelativeLayout
+    android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:orientation="vertical"
+        android:padding="5dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RelativeLayout
-                    android:id="@+id/container"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="@drawable/steak_milestone_background">
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_alignParentEnd="true">
-                    <LinearLayout
+                    android:orientation="vertical">
+                    <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:paddingHorizontal="10dp">
                         <TextView
+                            android:id="@+id/upcomming_assignments_title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="UPCOMMING ASSIGNMENTS"
-                            android:textColor="@color/black"
-                            android:textSize="30px"
+                            android:scrollHorizontally="false"
+                            android:text="UPCOMMING\nASSIGNMENTS"
+                            android:paddingVertical="8dp"
                             android:textStyle="bold"
-                            android:paddingHorizontal="30px"
-                            android:paddingTop="30px"/>
-                        <ScrollView
+                            android:textColor="@color/black"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"/>
+
+                        <Button
+                            android:id="@+id/show_more_assignments_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:backgroundTint="#182848"
+                            android:minWidth="0dp"
+                            android:minHeight="0dp"
+                            android:text="SHOW MORE"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </RelativeLayout>
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingVertical="1dp">
+                        <LinearLayout
+                            android:id="@+id/assignments_container_overview"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:paddingVertical="10px"
-                            android:scrollbars="none"
-                            >
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
-                                <include layout="@layout/deadline_card"/>
-                                <include layout="@layout/deadline_card"/>
-                                <include layout="@layout/deadline_card"/>
-                            </LinearLayout>
-                        </ScrollView>
-                    </LinearLayout>
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/progress_container"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.3"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true">
+                            android:orientation="vertical">
+                            <include layout="@layout/deadline_card"/>
+                            <include layout="@layout/deadline_card"/>
+                            <include layout="@layout/deadline_card"/>
+                            <include layout="@layout/deadline_card"/>
+                            <include layout="@layout/deadline_card"/>
+                            <include layout="@layout/deadline_card"/>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/progress_bar_backgrounds">
                         <TextView
+                            android:id="@+id/completed_tasks_completed_title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="TASKS COMPLETED"
-                            android:textColor="@color/black"
-                            android:textSize="25px"
+                            android:scrollHorizontally="false"
+                            android:text="COMPLETED\nTASKS"
+                            android:paddingVertical="5dp"
+                            android:paddingHorizontal="10dp"
                             android:textStyle="bold"
-                            android:paddingHorizontal="30px"
-                            android:paddingVertical="30px"/>
+                            android:textColor="@color/black"/>
                         <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/rand">
-                            <ProgressBar
-                                android:id="@+id/progress_bar"
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:indeterminateOnly="false"
-                                android:progress="60"
-                                android:progressDrawable="@drawable/circular_progress" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignEnd="@+id/progress_bar"
-                                android:layout_alignParentStart="true"
-                                android:layout_centerHorizontal="true"
-                                android:layout_centerVertical="true"
-                                android:text="@string/percent"
-                                android:textAlignment="center"
-                                android:textColor="@color/black"
-                                android:textSize="40px"
-                                android:textStyle="bold" />
-                        </RelativeLayout>
-                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="ASSIGNMENTS COMPLETED"
-                            android:textColor="@color/black"
-                            android:textSize="25px"
-                            android:textStyle="bold"
-                            android:paddingHorizontal="30px"
-                            android:paddingVertical="30px"/>
-                        <RelativeLayout
-                            android:id="@+id/containerA"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
                             <ProgressBar
-                                android:id="@+id/progress_bar_b"
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
                                 android:indeterminateOnly="false"
                                 android:progress="80"
                                 android:progressDrawable="@drawable/circular_progress" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_alignEnd="@+id/progress_bar_b"
-                                android:layout_alignParentStart="true"
-                                android:layout_centerHorizontal="true"
-                                android:layout_centerVertical="true"
-                                android:text="80%"
-                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
                                 android:textColor="@color/black"
-                                android:textSize="40px"
-                                android:textStyle="bold" />
+                                android:text="80%"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"/>
                         </RelativeLayout>
                     </LinearLayout>
-                </RelativeLayout>
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/containerB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:padding="20px">
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
                         android:orientation="vertical"
-                        android:scrollbars="none">
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/progress_bar_backgrounds">
                         <TextView
+                            android:id="@+id/assignments_completed_title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="UPCOMMING ASSIGNMENTS"
-                            android:textColor="@color/black"
-                            android:textSize="30px"
+                            android:scrollHorizontally="false"
+                            android:text="ASSIGNMENTS\nCOMPLETED"
+                            android:paddingVertical="5dp"
+                            android:paddingHorizontal="10dp"
                             android:textStyle="bold"
-                            android:paddingHorizontal="30px"
-                            android:paddingTop="30px"/>
-                        <include layout="@layout/deadline_card"/>
-                        <include layout="@layout/deadline_card"/>
-                        <include layout="@layout/deadline_card"/>
-                        <include layout="@layout/deadline_card"/>
-                        <include layout="@layout/deadline_card"/>
-                        <include layout="@layout/deadline_card"/>
+                            android:textColor="@color/black"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                            <ProgressBar
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:indeterminateOnly="false"
+                                android:progress="80"
+                                android:progressDrawable="@drawable/circular_progress" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="80%"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
                     </LinearLayout>
-                </ScrollView>
+
+                </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="2dp"
+            android:background="@drawable/steak_milestone_background">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp">
+                <TextView
+                    android:id="@+id/upcomming_tasks_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="false"
+                    android:text="UPCOMMING\nTASKS"
+                    android:paddingVertical="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"/>
 
-    </RelativeLayout>
+                <Button
+                    android:id="@+id/show_more_tasks_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#182848"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="SHOW MORE"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="5dp">
+                <LinearLayout
+                    android:id="@+id/tasks_container_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <include layout="@layout/tasks_card_overview"/>
+                    <include layout="@layout/tasks_card_overview"/>
+                    <include layout="@layout/tasks_card_overview"/>
+                    <include layout="@layout/tasks_card_overview"/>
+                    <include layout="@layout/tasks_card_overview"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

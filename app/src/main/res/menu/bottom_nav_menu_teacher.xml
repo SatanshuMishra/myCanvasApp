@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/coursesFragment"
+        android:title="COURSES"
+        android:icon="@drawable/iteration"/>
+    <item android:id="@+id/assignFragment"
+        android:title="ASSIGN"
+        android:icon="@drawable/iteration"/>
+    <item android:id="@+id/scheduleFragment"
+        android:title="SCHEDULE"
+        android:icon="@drawable/iteration"/>
+    <item android:id="@+id/settingsFragment"
+        android:title="SETTINGS"
+        android:icon="@drawable/settings"/>
+</menu>

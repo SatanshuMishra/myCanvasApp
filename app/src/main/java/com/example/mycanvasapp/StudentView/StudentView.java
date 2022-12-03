@@ -1,4 +1,4 @@
-package com.example.mycanvasapp;
+package com.example.mycanvasapp.StudentView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -15,17 +15,17 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.mycanvasapp.R;
 import com.example.mycanvasapp.databinding.ActivityStudentViewBinding;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Locale;
 
 public class StudentView extends AppCompatActivity {
-
     RequestQueue queue;
     String url;
     String id = "100281";
@@ -65,7 +65,6 @@ public class StudentView extends AppCompatActivity {
                     replaceFragament(new OverviewFragment());
                     break;
                 case R.id.deadlines:
-                    System.out.print("HELLO WORLD!");
                     pageName = findViewById(R.id.page_identity);
                     pageName.setSingleLine(false);
                     pageName.setText("YOUR\nDEADLINES");

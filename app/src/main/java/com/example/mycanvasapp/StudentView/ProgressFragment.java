@@ -1,16 +1,13 @@
-package com.example.mycanvasapp;
+package com.example.mycanvasapp.StudentView;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
-import android.os.Handler;
-import android.text.Editable;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,10 +18,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.mycanvasapp.R;
+
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 public class ProgressFragment extends Fragment implements DatePickerDialog.OnDateSetListener {
     Button addGoalButton;
@@ -53,6 +50,9 @@ public class ProgressFragment extends Fragment implements DatePickerDialog.OnDat
         });
 
         selectDate = addGoalDialog.findViewById(R.id.select_date_btn);
+        Window window = addGoalDialog.getWindow();
+        window.setGravity(Gravity.CENTER);
+        window.getAttributes().windowAnimations = R.style.DialogAnimation;
         selectDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

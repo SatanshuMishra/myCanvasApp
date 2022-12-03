@@ -1,4 +1,4 @@
-package com.example.mycanvasapp;
+package com.example.mycanvasapp.StudentView;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
