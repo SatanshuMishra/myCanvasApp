@@ -16,10 +16,12 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.mycanvasapp.databinding.ActivityStudentViewBinding;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Locale;
 
 public class StudentView extends AppCompatActivity {
@@ -33,6 +35,8 @@ public class StudentView extends AppCompatActivity {
     JSONObject data;
     private ActivityStudentViewBinding binding;
     TextView pageName;
+    JSONObject obj;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,14 @@ public class StudentView extends AppCompatActivity {
         binding = ActivityStudentViewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         FetchData();
+
+        try {
+            obj = new JSONObject(loadJSONFromAsset());
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+//        System.out.print("HELLO WORLD!");
+//        System.out.print("STUDENT VIEW: " + obj.toString());
 
         replaceFragament(new OverviewFragment());
 
@@ -53,6 +65,7 @@ public class StudentView extends AppCompatActivity {
                     replaceFragament(new OverviewFragment());
                     break;
                 case R.id.deadlines:
+                    System.out.print("HELLO WORLD!");
                     pageName = findViewById(R.id.page_identity);
                     pageName.setSingleLine(false);
                     pageName.setText("YOUR\nDEADLINES");
@@ -81,12 +94,11 @@ public class StudentView extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    protected void onResume()
-//    {
-//        super.onResume();
-//        getName();
-//    }
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+    }
 
     private void replaceFragament(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -120,12 +132,21 @@ public class StudentView extends AppCompatActivity {
         queue.add(this.JSONObjectRequest);
     }
 
-    public void getName(){
-        try{
-            System.out.println("QUERY: " + data.getString("name"));
-        } catch (JSONException e){
-            e.printStackTrace();
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            File file = new File("C:/Users/satan/Downloads/assignments.json");
+            InputStream is = this.getAssets().open("assignments.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
         }
+        return json;
     }
 
 }
