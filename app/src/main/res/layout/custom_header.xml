@@ -35,12 +35,13 @@
             android:src="@drawable/ic_baseline_waving_hand_24"
             android:paddingEnd="10px"/>
         <TextView
+            android:id="@+id/custom_header_name"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:paddingVertical="20px"
             android:scrollHorizontally="false"
-            android:text="HELLO\nSATANSHU"
+            android:text="HELLO\nNAME"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="35px"

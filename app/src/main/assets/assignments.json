@@ -1,0 +1,1178 @@
+{
+  "data": {
+    "allCourses": [
+      {
+        "id": "Q291cnNlLTExMzcyMA==",
+        "name": "Co-op Admissions Application 2022-23",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjg3MTA5",
+                "name": "Section 1: Personal Information & Academic History",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjg3MTA4",
+                "name": "Section 2: Experience & Short Answer Questions",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjg3MTEw",
+                "name": "Section 3: One-way Video Interview",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTkwNTgw",
+        "name": "Co-op Learning Community",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzYwODMx",
+                "name": "WT2 Co-op Job Seeking Assignment - Update #1",
+                "dueAt": "2022-10-01T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzcwMDI4",
+                "name": "WT2 Co-op Job Seeking Assignment - Update #2",
+                "dueAt": "2022-11-01T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzcwMDI5",
+                "name": "WT2 Co-op Job Seeking Assignment - Update #3",
+                "dueAt": "2022-12-01T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzkxNTEz",
+                "name": "Module 2 Pre-workshop Assignment: Mock Application",
+                "dueAt": "2022-11-23T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDc0OTk1",
+                "name": "Co-op Job Seeking Assignment - Goal Setting & Self Reflection",
+                "dueAt": "2023-01-15T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDg0MDM0",
+                "name": "Co-op Job Seeking Assignment - Update #1",
+                "dueAt": "2022-02-01T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDkyNjAy",
+                "name": "Co-op Job Seeking Assignment - Update #3",
+                "dueAt": "2022-04-01T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDkyNTk5",
+                "name": "Co-op Job Seeking Assignment - Update #3",
+                "dueAt": "2022-04-01T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDU4MTE3",
+                "name": "Module 1 Quiz: Land Acknowledgement",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDQyMzc1",
+                "name": "Module 2 Assignment: Resume Submission for Feedback",
+                "dueAt": "2022-11-28T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzg1MDAz",
+                "name": "Module 2 Assignment: Cover Letter Submission for Feedback ",
+                "dueAt": "2022-11-28T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDY1NTQ2",
+                "name": "Module 2 Quick Practice: Resume Layout Activity",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyODk0",
+                "name": "Module 2 Quick Practice: Analyzing Cover Letters",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDY1MjI2",
+                "name": "Module 2 Quick Practice: Accomplishment Statements Activity ",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyOTMw",
+                "name": "Module 3 Quiz: Professionalism",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyODky",
+                "name": "Module 4 Quick Practice: Analyzing Job Posts",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyODkz",
+                "name": "Module 6 Quiz: How to be Effective at Job Interviews",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyOTQy",
+                "name": "Module 7 Quiz: Networking",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC05ODA3MTA=",
+                "name": "Optional Assignment: Informational Interview ",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyOTQ3",
+                "name": "Module 8 Quiz: Conflict at the Workplace",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDU4MTE2",
+                "name": "Module 9 Quiz 1: Legal Rights and Ethics",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDU4MTE1",
+                "name": "Module 9 Quiz 2: Recognizing Systemic Issues in the Workplace",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMDYyOTUx",
+                "name": "Module 10 Quiz: How I Respond to Stress",
+                "dueAt": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTUwNTI4",
+        "name": "Co-op Work Permit Self-paced  Application Review",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC00ODI2OTQ=",
+                "name": "Quiz 1: Immigration Documents",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC00ODI2OTM=",
+                "name": "Quiz 2. Understanding your health insurance plans while at UBC",
+                "dueAt": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTEwMDI3OA==",
+        "name": "COSC 304 001 2022W1 Introduction to Databases",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjAx",
+                "name": "2) Database Introduction",
+                "dueAt": "2022-09-13T23:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTkx",
+                "name": "3.1) Relational Model",
+                "dueAt": "2022-09-13T23:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc3",
+                "name": "3.2) Relational Model Keys",
+                "dueAt": "2022-09-13T23:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTkz",
+                "name": "3.3) Relational Keys Quiz #2",
+                "dueAt": "2022-09-13T23:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTk5",
+                "name": "3.4) Relational Keys Quiz #3",
+                "dueAt": "2022-09-13T23:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTk2",
+                "name": "3.5) Relational Review",
+                "dueAt": "2022-09-21T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTky",
+                "name": "4) Relational Algebra",
+                "dueAt": "2022-09-14T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjAz",
+                "name": "5) SQL DDL",
+                "dueAt": "2022-09-21T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTk4",
+                "name": "6) SQL SELECT",
+                "dueAt": "2022-09-26T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc1",
+                "name": "7.1) SQL Aggregation",
+                "dueAt": "2022-09-26T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTk0",
+                "name": "7.2) SQL Subqueries",
+                "dueAt": "2022-09-28T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTkw",
+                "name": "8) Database Design",
+                "dueAt": "2022-10-03T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc0",
+                "name": "9) ER Design",
+                "dueAt": "2022-10-05T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTg2",
+                "name": "10) EER",
+                "dueAt": "2022-10-17T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTgw",
+                "name": "11) ER to Relational",
+                "dueAt": "2022-10-17T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc5",
+                "name": "12) DB Programming",
+                "dueAt": "2022-10-19T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTk1",
+                "name": "13) Python/R DB Programming",
+                "dueAt": "2022-10-24T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjA1",
+                "name": "14) DB Web Programming",
+                "dueAt": "2022-10-26T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTgx",
+                "name": "15) Triggers",
+                "dueAt": "2022-10-31T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTgy",
+                "name": "16) Views",
+                "dueAt": "2022-10-31T21:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTg4",
+                "name": "17) Security",
+                "dueAt": "2022-11-14T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTgz",
+                "name": "18) Transactions",
+                "dueAt": "2022-11-14T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc2",
+                "name": "19) XML",
+                "dueAt": "2022-11-16T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTg5",
+                "name": "20) JSON",
+                "dueAt": "2022-11-21T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTg1",
+                "name": "21) NoSQL",
+                "dueAt": "2022-11-21T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTc4",
+                "name": "22) Normalization",
+                "dueAt": "2022-11-23T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjAy",
+                "name": "23) Database Hosting",
+                "dueAt": "2022-11-28T21:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjIy",
+                "name": "iClicker Grade",
+                "dueAt": "2022-12-09T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjA5",
+                "name": "Lab 1",
+                "dueAt": "2022-09-23T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjEx",
+                "name": "Lab 2",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjEy",
+                "name": "Lab 3",
+                "dueAt": "2022-10-09T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjEz",
+                "name": "Lab 4",
+                "dueAt": "2022-10-17T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjE0",
+                "name": "Lab 5",
+                "dueAt": "2022-10-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjE1",
+                "name": "Lab 6",
+                "dueAt": "2022-11-06T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjE2",
+                "name": "Lab 7",
+                "dueAt": "2022-11-21T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjE3",
+                "name": "Lab 8",
+                "dueAt": "2022-11-28T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjE4",
+                "name": "Lab 9",
+                "dueAt": "2022-12-04T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjEw",
+                "name": "Lab 10",
+                "dueAt": "2022-12-09T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjIx",
+                "name": "SQL Bonus Lab",
+                "dueAt": "2022-12-05T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNjA0",
+                "name": "COSC 304 Midterm 1 Exam",
+                "dueAt": "2022-10-12T22:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjcxNTg0",
+                "name": "COSC 304 Midterm Exam 2",
+                "dueAt": "2022-11-02T22:00:00-07:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTEwMDI4MA==",
+        "name": "COSC 310 101 2022W1 Software Engineering",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzY4NDAx",
+                "name": "Assignment 1",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzgxMzI1",
+                "name": "Assignment 2",
+                "dueAt": "2022-10-21T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzkyMzU3",
+                "name": "Assignment 3",
+                "dueAt": "2022-11-14T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xNDAyNDcx",
+                "name": "Individual Project",
+                "dueAt": "2022-12-02T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzc3ODc0",
+                "name": "Quiz 1",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzc3ODc1",
+                "name": "Quiz 2",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzc3ODc2",
+                "name": "Quiz 3",
+                "dueAt": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTEwMDI4MQ==",
+        "name": "COSC 341 101 2022W1 Human Computer Interaction",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM0",
+                "name": "Lab 1",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM1",
+                "name": "Lab 2",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM2",
+                "name": "Lab 3",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM3",
+                "name": "Lab 4",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU5NjE4",
+                "name": "In-Class Activity 1 (Bonus)",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU5NjE5",
+                "name": "In-Class Activity 2 (Bonus)",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU5NjIx",
+                "name": "In-Class Activity 3 (Bonus) ",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU5NjIw",
+                "name": "In-Class Activity 4 (Bonus) ",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU5NjIy",
+                "name": "In-Class Activity 5 (Bonus) ",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM4",
+                "name": "Project Step 0",
+                "dueAt": "2022-09-16T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODM5",
+                "name": "Project Step 1",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQw",
+                "name": "Project Step 2",
+                "dueAt": "2022-10-28T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQx",
+                "name": "Project Step 3",
+                "dueAt": "2022-11-18T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQ0",
+                "name": "Project Step 4",
+                "dueAt": "2022-12-05T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQy",
+                "name": "Project Presentation",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQz",
+                "name": "Team Member Evaluation",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQ1",
+                "name": "Midterm Exam",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzQyODQ2",
+                "name": "Final Exam",
+                "dueAt": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTEwMDI4Mw==",
+        "name": "COSC 407 COSC 507 101 2022W1 Introduction to Parallel Computing",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjYz",
+                "name": "L03 Quiz",
+                "dueAt": "2022-09-22T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjcx",
+                "name": "L05 Quiz",
+                "dueAt": "2022-09-22T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjY1",
+                "name": "L07 Quiz",
+                "dueAt": "2022-09-29T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjY2",
+                "name": "L09 Quiz",
+                "dueAt": "2022-10-06T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjcw",
+                "name": "L13 Quiz",
+                "dueAt": "2022-10-20T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjc1",
+                "name": "L15",
+                "dueAt": "2022-10-27T11:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjc2",
+                "name": "A1",
+                "dueAt": "2022-09-23T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjc3",
+                "name": "A2",
+                "dueAt": "2022-09-30T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjc4",
+                "name": "A3",
+                "dueAt": "2022-10-07T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjc5",
+                "name": "A4",
+                "dueAt": "2022-10-14T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzkwODM3",
+                "name": "CUDA Sandbox",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjgw",
+                "name": "A5",
+                "dueAt": "2022-11-04T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjgx",
+                "name": "A6 **due on a Monday**",
+                "dueAt": "2022-11-14T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjgy",
+                "name": "A7",
+                "dueAt": "2022-11-25T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjgz",
+                "name": "A8 **due on a Tuesday**",
+                "dueAt": "2022-11-29T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjg0",
+                "name": "Midterm1",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xNDE0NjQy",
+                "name": "Midterm2",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjkx",
+                "name": "Team Formation",
+                "dueAt": "2022-09-23T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjg5",
+                "name": "Proposals",
+                "dueAt": "2022-10-28T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjg4",
+                "name": "Presentation",
+                "dueAt": "2022-12-02T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjkw",
+                "name": "Report",
+                "dueAt": "2022-12-08T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzIyNjg3",
+                "name": "Overall system and Other Deliverables",
+                "dueAt": "2022-12-08T23:59:59-08:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTY2Mjg0",
+        "name": "Create Orientation 2020",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC02NDcyNzY=",
+                "name": "Update your Canvas Profile & Settings",
+                "dueAt": "2020-09-11T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC02Njc5NzA=",
+                "name": "Academic Integrity at UBC",
+                "dueAt": "2020-09-11T23:59:59-07:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTY5NDIz",
+        "name": "IKBFoS Dean’s Office Communications 2020/21 (1)",
+        "assignmentsConnection": {
+          "edges": []
+        }
+      },
+      {
+        "id": "Q291cnNlLTkxNjI2",
+        "name": "IKBFoS Dean’s Office Communications 2021/22 (2)",
+        "assignmentsConnection": {
+          "edges": []
+        }
+      },
+      {
+        "id": "Q291cnNlLTExNDQ4OA==",
+        "name": "IKBFoS Dean’s Office Communications 2022/23 (2)",
+        "assignmentsConnection": {
+          "edges": []
+        }
+      },
+      {
+        "id": "Q291cnNlLTI1MTE3",
+        "name": "makerspace UBCO",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0yMzc1Mjg=",
+                "name": "Sample Badge Quiz",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xODAzMzc=",
+                "name": "Safety Quiz",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0yMzc1MjA=",
+                "name": "Safety Level 2 Session Record",
+                "dueAt": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Q291cnNlLTEwMDk4OQ==",
+        "name": "PHIL 331 001 2022W1 Computer Ethics",
+        "assignmentsConnection": {
+          "edges": [
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTY4",
+                "name": "Reflecting on the Moral Machine",
+                "dueAt": "2022-09-20T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMzU4Mzcz",
+                "name": "Midterm policy",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTUz",
+                "name": "Syllabus",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTQ3",
+                "name": "Kantian Deontology II",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTcx",
+                "name": "Attention, Distraction, and Technology",
+                "dueAt": "2022-11-22T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTM3",
+                "name": "Utilitarianism II",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTc4",
+                "name": "Plagiarism",
+                "dueAt": "2022-09-20T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTY2",
+                "name": "Black Mirror: Striking Vipers",
+                "dueAt": "2022-09-20T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTMw",
+                "name": "Cybercrime and Security",
+                "dueAt": "2022-12-08T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTY3",
+                "name": "Introductions",
+                "dueAt": "2022-09-20T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTcw",
+                "name": "Trolls on the Internet",
+                "dueAt": "2022-10-02T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTQ4",
+                "name": "Utilitarianism I",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTM5",
+                "name": "Virtue Ethics",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTI2",
+                "name": "Kantian Deontology",
+                "dueAt": "2022-10-02T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTY1",
+                "name": "Black Mirror: White Christmas",
+                "dueAt": "2022-09-26T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTU1",
+                "name": "Rawls and the Digital Divide",
+                "dueAt": "2022-10-02T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTMz",
+                "name": "IP",
+                "dueAt": "2022-12-08T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTM2",
+                "name": "Freedom of Expression",
+                "dueAt": "2022-12-08T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTYw",
+                "name": "Cancel Culture",
+                "dueAt": "2022-10-25T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTUx",
+                "name": "Privacy",
+                "dueAt": "2022-12-08T23:59:59-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTU5",
+                "name": "A Right to Privacy",
+                "dueAt": "2022-11-01T23:59:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTUy",
+                "name": "Attention and Distraction",
+                "dueAt": "2022-12-08T23:59:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTc5",
+                "name": "Sign up for a Video Essay Group",
+                "dueAt": "2022-09-29T08:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTgx",
+                "name": "Video Essay Case Proposal",
+                "dueAt": "2022-10-20T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTY0",
+                "name": "Video Essay: Self-assessment ",
+                "dueAt": "2022-10-13T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTgw",
+                "name": "Team Charter Upload",
+                "dueAt": "2022-10-27T23:59:59-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xNDAyNjg2",
+                "name": "Team Charter Upload v2",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTc1",
+                "name": " Uploading the Group Video Essay - (final instructions)",
+                "dueAt": "2022-12-02T10:00:00-08:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTQz",
+                "name": "2022 Midterm Ethical Theory",
+                "dueAt": "2022-10-06T19:30:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTg3",
+                "name": "Video Essay Totals",
+                "dueAt": null
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTU4",
+                "name": "Practice Questions for Midterm",
+                "dueAt": "2022-10-04T18:00:00-07:00"
+              }
+            },
+            {
+              "node": {
+                "id": "QXNzaWdubWVudC0xMjk0MTQw",
+                "name": "Midterm exam - Request Regrade ",
+                "dueAt": "2022-10-31T23:59:59-07:00"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

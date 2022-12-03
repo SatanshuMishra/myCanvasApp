@@ -3,17 +3,146 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background"
-    tools:context=".ProgressFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    android:background="@color/white"
+    tools:context=".StudentView.ProgressFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30px">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="OVERVIEW FRAGMENT"
-        android:textSize="26dp"
-        android:textColor="@color/white"
-        android:layout_gravity="center" />
-
+        android:paddingVertical="50px"
+        android:paddingHorizontal="10px"
+        android:layout_marginVertical="10px"
+        android:background="@drawable/orbs_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/ethereum"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="15 ORBS"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="50px"
+            android:paddingHorizontal="10px"
+            android:layout_marginVertical="10px"
+            android:background="@drawable/steak_milestone_background">
+            <LinearLayout
+                android:id="@+id/day_streak"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/count"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23 days"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_dynamic_primary0"
+                    android:paddingTop="20px"
+                    android:textSize="45px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current streak"
+                    android:textAlignment="center"
+                    android:textStyle="normal"
+                    android:textColor="@color/material_dynamic_primary0"
+                    android:textSize="45px"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/next_milestone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentEnd="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/success"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="50 days"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_dynamic_primary0"
+                    android:paddingTop="20px"
+                    android:textSize="45px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next milestone"
+                    android:textAlignment="center"
+                    android:textStyle="normal"
+                    android:textColor="@color/material_dynamic_primary0"
+                    android:textSize="45px"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingVertical="30px"
+            android:paddingHorizontal="40px"
+            android:layout_marginVertical="10px"
+            android:background="@drawable/steak_milestone_background">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="GOAL SETTING"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_dynamic_primary0"
+                    android:textSize="45px"
+                    android:layout_alignParentStart="true"/>
+                <Button
+                    android:id="@+id/add_goal_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD GOAL"
+                    android:layout_alignParentEnd="true"
+                    android:backgroundTint="#03a1fc"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/goals_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

@@ -15,41 +15,41 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@drawable/deadline_background"
+            android:clipToOutline="true"
             android:padding="15dp">
             <TextView
                 android:id="@+id/course_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="COSC 341 101 2022W1 HUMAN COMPUTER INTERACTION"
+                android:text="INSERT TITLE HERE"
                 android:textFontWeight="1000"
-                android:textSize="25px"
+                android:textSize="30px"
                 android:textColor="@color/black"
                 android:padding="1dp"/>
-
             <TextView
                 android:id="@+id/assignment_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Project Step 4"
+                android:text="INSERT ASSIGNMENT TITLE HERE"
                 android:textFontWeight="1000"
                 android:textSize="30px"
                 android:textColor="@color/black"
                 android:layout_below="@id/course_name"
                 android:padding="1dp"/>
-
             <TextView
-                android:id="@+id/time"
+                android:id="@+id/due_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textFontWeight="1000"
                 android:textSize="30px"
-                android:text="Due Dec 2 at 11:59 PM"
-                android:textColor="@color/black"
+                android:text="INSERT TIME HERE"
+                android:textColor="@color/white"
+                android:paddingVertical="2dp"
+                android:paddingHorizontal="10dp"
+                android:layout_marginVertical="5dp"
                 android:layout_below="@id/assignment_title"
-                android:padding="1dp"/>
+                android:background="@drawable/time_pill_background"/>
         </RelativeLayout>
-
     </RelativeLayout>
-    
 </RelativeLayout>
