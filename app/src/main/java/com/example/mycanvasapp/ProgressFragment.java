@@ -1,64 +1,108 @@
 package com.example.mycanvasapp;
 
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
+import android.text.Editable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ProgressFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class ProgressFragment extends Fragment {
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public ProgressFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment progress.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ProgressFragment newInstance(String param1, String param2) {
-        ProgressFragment fragment = new ProgressFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+public class ProgressFragment extends Fragment implements DatePickerDialog.OnDateSetListener {
+    Button addGoalButton;
+    Button selectDate;
+    Button submit;
+    Dialog addGoalDialog;
+    EditText goalEditText;
+    LinearLayout layout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_progress, container, false);
+        addGoalButton = view.findViewById(R.id.add_goal_button);
+        addGoalDialog = new Dialog(getContext());
+        addGoalDialog.setContentView(R.layout.add_goals_window);
+        addGoalButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                addGoalDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+//                Window window = addGoalDialog.getWindow();
+//                window.getAttributes().windowAnimations = R.style.DialogAnimation;
+                addGoalDialog.setCancelable(true);
+                addGoalDialog.show();
+            }
+        });
+
+        selectDate = addGoalDialog.findViewById(R.id.select_date_btn);
+        selectDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogFragment datePicker = new DatePickerFragment();
+                datePicker.show(getChildFragmentManager(), "date picker");
+            }
+        });
+
+        goalEditText = addGoalDialog.findViewById(R.id.goal_field);
+        goalEditText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goalEditText.setText("");
+            }
+        });
+
+        layout = view.findViewById(R.id.goals_container);
+        submit = addGoalDialog.findViewById(R.id.submit);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addGoalCard(goalEditText.getText().toString(), selectDate.getText().toString());
+                addGoalDialog.dismiss();
+            }
+        });
+
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_progress, container, false);
+        return view;
     }
+
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        System.out.println("ENTER FUNCT");
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR, year);
+        c.set(Calendar.MONTH, month);
+        c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+        String currentDate = DateFormat.getDateInstance().format(c.getTime());
+        System.out.println("DATE SELECTED: " + currentDate);
+        selectDate.setText(currentDate);
+    }
+
+    public void addGoalCard(String goal, String time) {
+        View view = getLayoutInflater().inflate(R.layout.goals_card, null);
+        TextView goalText = view.findViewById(R.id.goal_title);
+        goalText.setText(goal);
+        TextView dueTime = view.findViewById(R.id.due_time);
+        dueTime.setText(time);
+        layout.addView(view);
+    }
+
 }
