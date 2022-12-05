@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778675744665",
+    "firebase_url": "https://cosc341finalprojec-default-rtdb.firebaseio.com",
+    "project_id": "cosc341finalprojec",
+    "storage_bucket": "cosc341finalprojec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778675744665:android:bdca07694fdc2861156d08",
+        "android_client_info": {
+          "package_name": "com.example.mycanvasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778675744665-mfr3fo9fp0si0rpl1gvn33hret3itbns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCHQTJMiYV1uBi15iX72Zy9kJ9QbXiDks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778675744665-mfr3fo9fp0si0rpl1gvn33hret3itbns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

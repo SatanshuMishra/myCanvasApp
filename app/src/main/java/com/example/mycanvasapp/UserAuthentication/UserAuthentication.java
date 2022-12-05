@@ -25,10 +25,9 @@ public class UserAuthentication extends AppCompatActivity {
         setContentView(R.layout.activity_user_authentication);
         setContentView(binding.getRoot());
         replaceFragament(new LoginFragment());
-
     }
     public void changeView(View view){
-        Intent intent = new Intent(this, MainActivityTeacher.class);
+        Intent intent = new Intent(this, StudentView.class);
         startActivity(intent);
     }
     private void replaceFragament(Fragment fragment){

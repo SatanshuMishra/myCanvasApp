@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="150dp"
         android:elevation="8dp"
         android:orientation="vertical">
@@ -65,8 +65,8 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/background_login_button"
             android:fontFamily="@font/nunito_extra_bold"
-            android:padding="10dp"
             android:onClick="changeView"
+            android:padding="10dp"
             android:text="Log In"
             android:textSize="15dp" />
 
@@ -78,9 +78,9 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="15dp"
             android:fontFamily="sans-serif-medium"
+            android:onClick="changeToRegister"
             android:text="Need an acount? Register Here"
             android:textAlignment="center"
-            android:onClick="changeToRegister"
             android:textColor="#804CEF"
             android:textSize="17dp"></TextView>
 
