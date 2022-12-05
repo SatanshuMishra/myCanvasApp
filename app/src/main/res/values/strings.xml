@@ -16,7 +16,10 @@
         <item>COSC 121</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
-
+    <string-array name="userstatus">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
     <string name="title_activity_user_authentication">UserAuthentication</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

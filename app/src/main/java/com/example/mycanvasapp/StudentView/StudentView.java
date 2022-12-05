@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.provider.Settings;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +17,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.mycanvasapp.R;
+import com.example.mycanvasapp.Settings.SettingsFragment;
 import com.example.mycanvasapp.databinding.ActivityStudentViewBinding;
 
 import org.json.JSONException;
@@ -80,13 +82,13 @@ public class StudentView extends AppCompatActivity {
                     pageName = findViewById(R.id.page_identity);
                     pageName.setSingleLine(false);
                     pageName.setText("YOUR\nSCHEDULE");
-                    Toast.makeText(getApplicationContext(), "Schedule Selected", Toast.LENGTH_SHORT).show();
+                    replaceFragament(new SchedulesFragment());
                     break;
                 case R.id.settings:
                     pageName = findViewById(R.id.page_identity);
                     pageName.setSingleLine(false);
                     pageName.setText("YOUR\nSETTINGS");
-                    Toast.makeText(getApplicationContext(), "Settings Selected", Toast.LENGTH_SHORT).show();
+                    replaceFragament(new SettingsFragment());
                     break;
             }
             return true;

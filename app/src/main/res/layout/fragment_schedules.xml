@@ -5,10 +5,46 @@
     android:layout_height="match_parent"
     tools:context=".StudentView.SchedulesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="610dp"
+        android:text="Add Task" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp"
+        android:text="Filter" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/deadline_card" />
+
+            <include layout="@layout/deadline_card" />
+
+            <include layout="@layout/deadline_card" />
+
+            <include layout="@layout/deadline_card" />
+
+            <include layout="@layout/deadline_card" />
+
+            <include layout="@layout/deadline_card" />
+            <include layout="@layout/deadline_card" />
+            <include layout="@layout/deadline_card" />
+            <include layout="@layout/deadline_card" />
+        </LinearLayout>
+
+    </ScrollView>
 </FrameLayout>
